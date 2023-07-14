@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/login.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/fa734f2cc6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <li class="nav-item back text-center">
+        <a class="nav-link" href="index.html">Kembali</a>
+    </li>
+
+
+
+    <!-- main: start -->
+    <main class="full-page">
+        <div class="container">
+            <h1 class="mt-5 mb-3 h3 text-center">Atur Tiket</h1>
+            <div class="card mt-5 mb-4">
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <!-- table row start -->
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Nama</th>
+                                <th scope="col">Harga</th>
+                                <th scope="col">Act</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Surabaya menuju Bali</td>
+                                <td>IDR 400.000</td>
+                                <td style="width: 1%;" class="text-nowrap">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#product-1"
+                                        class="btn btn-outline-primary btn-sm">Detail</button>
+                                    <a href="product-form.html" class="btn btn-outline-warning btn-sm">Edit</a>
+                                    <button type="button" class="btn btn-outline-danger btn-sm">Hapus</button>
+
+                                    <!-- Modal Start-->
+                                    <div class="modal fade" id="product-1" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h2 class="modal-title fs-5" id="exampleModalLabel">Surabaya menuju
+                                                        Bali</h2>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="text-center">
+                                                        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=438&q=80"
+                                                            class="card-img-top" style="width: 200px;" alt="">
+                                                    </div>
+                                                    <hr>
+                                                    <h4 class="fw-bold">IDR 400.000</h4>
+                                                    <p class="text-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
+                                                        libero enim sed faucibus turpis in eu mi bibendum. In hac
+                                                        habitasse platea dictumst quisque sagittis purus. Nisl rhoncus
+                                                        mattis rhoncus urna neque viverra justo. Mi bibendum neque
+                                                        egestas congue quisque. Non pulvinar neque laoreet suspendisse
+                                                        interdum. Risus nullam eget felis eget nunc. Purus in massa
+                                                        tempor nec. Molestie nunc non blandit massa enim nec dui nunc.
+                                                        Interdum consectetur libero id faucibus nisl tincidunt eget
+                                                        nullam non. Aenean et tortor at risus viverra. Velit scelerisque
+                                                        in dictum non. Elit ullamcorper dignissim cras tincidunt
+                                                        lobortis. Orci phasellus egestas tellus rutrum tellus. Quis vel
+                                                        eros donec ac odio. Urna nunc id cursus metus aliquam eleifend
+                                                        mi in.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal End -->
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+
+                            <!-- table row start -->
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jakarta menuju Wamena</td>
+                                <td>IDR 10.200.000</td>
+                                <td style="width: 1%;" class="text-nowrap">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#product-2"
+                                        class="btn btn-outline-primary btn-sm">Detail</button>
+                                    <a href="product-form.html" class="btn btn-outline-warning btn-sm">Edit</a>
+                                    <button type="button" class="btn btn-outline-danger btn-sm">Hapus</button>
+
+                                    <!-- Modal Start-->
+                                    <div class="modal fade" id="product-2" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h2 class="modal-title fs-5" id="exampleModalLabel">Jakarta menuju Wamena</h2>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="text-center">
+                                                        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=438&q=80"
+                                                            class="card-img-top" style="width: 200px;" alt="">
+                                                    </div>
+                                                    <hr>
+                                                    <h4 class="fw-bold">IDR 10.200.000</h4>
+                                                    <p class="text-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
+                                                        libero enim sed faucibus turpis in eu mi bibendum. In hac
+                                                        habitasse platea dictumst quisque sagittis purus. Nisl rhoncus
+                                                        mattis rhoncus urna neque viverra justo. Mi bibendum neque
+                                                        egestas congue quisque. Non pulvinar neque laoreet suspendisse
+                                                        interdum. Risus nullam eget felis eget nunc. Purus in massa
+                                                        tempor nec. Molestie nunc non blandit massa enim nec dui nunc.
+                                                        Interdum consectetur libero id faucibus nisl tincidunt eget
+                                                        nullam non. Aenean et tortor at risus viverra. Velit scelerisque
+                                                        in dictum non. Elit ullamcorper dignissim cras tincidunt
+                                                        lobortis. Orci phasellus egestas tellus rutrum tellus. Quis vel
+                                                        eros donec ac odio. Urna nunc id cursus metus aliquam eleifend
+                                                        mi in.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal End -->
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </main>
+    <!-- main: end -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

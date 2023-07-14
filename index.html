@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <script src="https://kit.fontawesome.com/fa734f2cc6.js" crossorigin="anonymous"></script> 
+  </head>
+  <body>
+    
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="/image/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tiket
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-plane-departure"></i></i>Pesawat</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-train-subway"></i></i>Kereta</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hotel"></i></i>Hotel</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-suitcase"></i></i></i>Wisata</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pemesanan</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item daftar">
+                  <a class="nav-link" href="register.html">Daftar</a>
+                </li>
+              </ul>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <a class="btn btn-outline-dark ms-auto" href="login.html" role="button">Masuk</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar End -->
+  
+        <!-- Banner Start -->
+        <div class="banner py-5">
+          <div class="container text-center">
+              <div style="max-width: 600px;" class="mx-auto">
+                  <h1>Selamat Datang!</h1>
+                  <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Ketik pencarian anda">
+                    <button type="submit">Cari</button>
+                  </form>
+              </div>
+          </div>
+        </div>
+        <!-- Banner END -->
+    
+
+      <!-- Tiket Pesawat Start -->
+      <div class="title">
+        <h2>Ayo mulai perjalananmu,</h2>
+        <p>Kunjungi berbagai kota dengan harga terjangkau dengan kenyamanan penuh. Cek sekarang!</p>
+      </div>
+      <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3 col-md-6 mb-3">
+                  <a class="card-link" href="detail.html">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=438&q=80" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                          <h5 class="card-text">Surabaya <i class="fa-solid fa-arrow-right-long"></i> Bali</h5>
+                          <p>22 Juni 2023</p>
+                          <p class="maskapai"><img src="https://www.heatcon.com/wp-content/uploads/2014/12/Lion-Air-Logo-1024x760-1024x760.jpg" alt="" style="height: 20px; padding-right: 12px;">Lion Air</p>
+                          <p>Ekonomi</p>
+                          <div class="harga">
+                            <p>Harga dari <h4 class="card-title">IDR 400.000</h4></p>
+                          </div>
+                        </div>
+                      </div>
+                  </a>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 mb-3">
+                  <div class="card">
+                      <img src="https://images.unsplash.com/photo-1555899434-94d1368aa7af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+                      <div class="card-body">
+                        <h5 class="card-text">Bali <i class="fa-solid fa-arrow-right-long"></i> Jakarta</h5>
+                        <p>03 Juli 2023</p>
+                        <p class="maskapai"><img src="https://th.bing.com/th/id/R.6c6307bf6967ab86d541d7b239dd8862?rik=8FW4rBjxQUUnZw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-kfqmZ6swf14%2fUPkoWbasV_I%2fAAAAAAAAFLQ%2f7DrmTWFM6sQ%2fs1600%2fLogo%2bGaruda%2bIndonesia.jpg&ehk=AgceEsfB7dJJ72kNhRD6yqyTs1pwhgvySXBbCh9LTAA%3d&risl=&pid=ImgRaw&r=0" alt="" style="height: 20px; padding-right: 12px;">Garuda Indonesia</p>
+                        <p>Bisnis</p>
+                        <div class="harga">
+                          <p>Harga dari <h4 class="card-title">IDR 1.200.000</h4></p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-12 col-lg-3 col-md-6 mb-3">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1602057512587-76d5cc4b34e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                      <h5 class="card-text">Surabaya <i class="fa-solid fa-arrow-right-long"></i> Jogja</h5>
+                      <p>12 Juli 2023</p>
+                      <p class="maskapai"><img src="https://th.bing.com/th/id/OIP.UeY14nQ_uhUP3m6HxIUvSgHaE8?pid=ImgDet&rs=1" alt="" style="height: 20px; padding-right: 12px;">Citilink</p>
+                      <p>Kelas Satu</p>
+                      <div class="harga">
+                        <p>Harga dari <h4 class="card-title">IDR 1.500.000</h4></p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 mb-3">
+              <div class="card">
+                  <img src="https://images.unsplash.com/photo-1638584165073-df0851b7c254?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+                  <div class="card-body">
+                    <h5 class="card-text">Jakarta <i class="fa-solid fa-arrow-right-long"></i> Wamena</h5>
+                    <p>10 Agustus 2023</p>
+                    <p class="maskapai"><img src="https://www.airport-bali.com/images/airlines17/sriwijaya-air.png" alt="" style="height: 20px; padding-right: 12px;">Sriwijaya Air</p>
+                    <p>Ekonomi</p>
+                    <div class="harga">
+                      <p>Harga dari <h4 class="card-title">IDR 10.200.000</h4></p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+                
+           
+            </div>
+        </div>
+      </div>
+      <!-- Tiket Pesawat End -->
+
+      <!-- Hotel Start -->
+      <div class="title">
+        <h2>Menginap di Hotel terbaik</h2>
+        <p>Perjalanan yang menyenangkan pastinya membutuhkan tempat istirahat ternyaman. Tunggu apa lagi? Ayo booking di bawah ini!</p>
+      </div>
+      <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 mb-3">
+                  <a class="card-link" href="detail.html">
+                    <div class="card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/62/09/92/pondok-nyoman.jpg?w=1400&h=-1&s=1" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+                        <div class="card-body">
+                          <h5 class="card-text">Pondok Nyoman</h5>
+                          <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                          </div>
+                          <p>Bedugul, Bali</p>
+                          <p class="review"><i class="fa-solid fa-thumbs-up"></i>4,2/5 (342 Ulasan)</p>
+                          <div class="harga">
+                            <s>IDR 335.595</s>
+                            <h4 class="card-title">IDR 280.673</h4>
+                          </div>
+                        </div>
+                      </div>
+                  </a>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 mb-3">
+                  <a class="card-link" href="detail.html">
+                    <div class="card">
+                        <img src="https://pix10.agoda.net/hotelImages/126/1269976/1269976_16100508330047382976.jpg?s=1024x768" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+                        <div class="card-body">
+                          <h5 class="card-text">Swiss-Belboutique Yogyakarta </h5>
+                          <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <p>Sudirman, Yogyakarta</p>
+                          <p class="review"><i class="fa-solid fa-thumbs-up"></i>5/5 (1,289 Ulasan)</p>
+                          <div class="harga">
+                            <s>IDR 756.198</s>
+                            <h4 class="card-title">IDR 659.656</h4>
+                          </div>
+                        </div>
+                      </div>
+                  </a>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 mb-3">
+                  <a class="card-link" href="detail.html">
+                    <div class="card">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/7a/93/d4/hotel-horison-ultima.jpg" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+                        <div class="card-body">
+                          <h5 class="card-text">Horison Hotel Ultima Timika</h5>
+                          <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                          <p>Wania, Mimika, Papua</p>
+                          <p class="review"><i class="fa-solid fa-thumbs-up"></i>3,0/5 (1,289 Ulasan)</p>
+                          <div class="harga">
+                            <s>IDR 646.000</s>
+                            <h4 class="card-title">IDR 645.999</h4>
+                          </div>
+                        </div>
+                      </div>
+                  </a>
+                </div>
+          </div>
+                
+           
+            </div>
+        </div>
+      </div>
+      <!-- Hotel End -->
+
+      <!-- Footer Start -->
+      <footer>
+        <div class="container">
+          <div class="row py-4">
+            <div class="col-12 col-lg-4">
+              <h4>Deskripsi Offline Office</h4>
+              <ul>
+                <li>Jalan Tukad Yeh Aya</li>
+                <li>+62817838887384</li>
+                <li>ticket@gmail.com</li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h4>Menu</h4>
+              <ul>
+                <li>
+                  <a href="#">Beranda</a>
+                </li>
+                <li>
+                  <a href="#">Tiket</a>
+                </li>
+                <li>
+                  <a href="#">Kunjungan Terbaik</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h4>Ikuti Kami</h4>
+              <ul>
+                <li>
+                  <a href="">
+                    <p><i class="fa-solid fa-globe"></i>ticketcakra.com</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <p><i class="fa-brands fa-tiktok"></i>ticketcakra_tiktok</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <p><i class="fa-brands fa-instagram"></i>ticketcakra</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="text-center border-top">&copy; Cakra's Ticket.</div> 
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
