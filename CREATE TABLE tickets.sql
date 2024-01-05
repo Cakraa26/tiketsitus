@@ -1,0 +1,9 @@
+CREATE TABLE tickets(
+    id BIGNT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    imgurl VARCHAR (255) NOT NULL,
+    asal VARCHAR (50) NOT NULL,
+    tujuan VARCHAR (50) NOT NULL,
+    maskapai VARCHAR (50) NOT NULL,
+    harga DECIMAL (10,2) NOT NULL,
+    deskripsi TEXT NOT NULL
+);

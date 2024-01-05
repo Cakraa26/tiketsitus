@@ -42,7 +42,6 @@ nav{
 
 /* Banner */
 .banner{
-  background: url(/image/bg-banner.jpg);
   background-size: cover;
 }
 .banner h1{
